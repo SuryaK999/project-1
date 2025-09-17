@@ -1,0 +1,1 @@
+This project is about  a website containing the landing page and it is abstract and minimal design with the different options like home,about etc options...etc

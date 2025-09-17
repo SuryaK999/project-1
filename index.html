@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Surya Landing Page</title>
+   <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPya7HN6ATzNEqdk0JXSVYZIHcULPbJIWtuA&s" type="image/png">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: whitesmoke;
+      color: black;
+    }
+
+    /* Navbar */
+    .nav {
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      font-size: 20px;
+      font-weight: bold;
+      border-bottom: 2px solid lightgray;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav b {
+      color: navy;
+    }
+
+    .list {
+      list-style: none;
+      display: flex;
+      gap: 2rem;
+    }
+
+    .list li {
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+
+    .list li:hover {
+      color: blue;
+    }
+
+    /* Hero Section */
+    .hero {
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      background-color: lavender;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      color: darkslategray;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: dimgray;
+      max-width: 600px;
+    }
+
+    .btn {
+      margin-top: 20px;
+      padding: 12px 25px;
+      font-size: 15px;
+      border: none;
+      border-radius: 20px;
+      background-color: mediumslateblue;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: darkblue;
+    }
+
+    /* Info Section */
+    .sec, .art {
+      padding: 50px 70px;
+      text-align: center;
+      background-color: white;
+      margin-top: 20px;
+    }
+
+    .sec h2, .art h2 {
+      font-size: 1.8rem;
+      color: navy;
+      margin-bottom: 10px;
+    }
+
+    .sec p, .art p {
+      color: dimgray;
+      font-size: 1rem;
+    }
+
+    /* Footer */
+    .foot {
+      text-align: center;
+      background-color: black;
+      color: white;
+      padding: 15px;
+      margin-top: 30px;
+      font-size: 14px;
+    }
+
+    .foot a {
+      color: lightblue;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="nav">
+    <b>SURYA</b>
+    <nav>
+      <ul class="list">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Info</li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to Surya’s Landing Page</h1>
+    <p>This website is created by Surya_k !!</p>
+    <button class="btn">Get Started</button>
+  </section>
+
+  <section class="sec">
+    <h2>About</h2>
+    <p>Hey! This is Surya! Nice to meet you!</p>
+  </section>
+
+  <article class="art">
+    <h2>Info</h2>
+    <p>Here you’ll find updates, projects, and more interesting stuff here....!</p>
+  </article>
+
+  <footer class="foot">
+    <p>@2025 Surya | All rights reserved | Contact:
+      <a href="mailto:surya@888gmail.com">surya@888gmail.com</a>
+    </p>
+  </footer>
+
+</body>
+</html>
